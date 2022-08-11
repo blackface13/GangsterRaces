@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F4432FB1-AAB3-4AED-6681-B62177E35D40}</ProjectGuid>
+    <ProjectGuid>{C7F00BDB-F9DB-8F55-4D3F-D09D51DA5937}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>4.CORE</AssemblyName>
+    <AssemblyName>0.DTO</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -56,13 +56,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\4.CORE\EnumBase.cs" />
-    <Compile Include="Assets\Scripts\4.CORE\Builds\VersionIncrementor.cs" />
-    <Compile Include="Assets\Scripts\4.CORE\Constants\UISettings.cs" />
-    <Compile Include="Assets\Scripts\4.CORE\CoreExtensions\Extensions.cs" />
+    <Compile Include="Assets\Scripts\0.DTO\Models\CharacterModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Scripts\4.CORE\4.CORE.asmdef" />
+    <None Include="Assets\Scripts\0.DTO\0.DTO.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
