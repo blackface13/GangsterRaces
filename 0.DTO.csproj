@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{C7F00BDB-F9DB-8F55-4D3F-D09D51DA5937}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -56,7 +57,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\0.DTO\Interfaces\IAttackModel.cs" />
+    <Compile Include="Assets\Scripts\0.DTO\Models\AttackModel.cs" />
     <Compile Include="Assets\Scripts\0.DTO\Models\CharacterModel.cs" />
+    <Compile Include="Assets\Scripts\0.DTO\Models\StateModel.cs" />
+    <Compile Include="Assets\Scripts\0.DTO\Models\StatsModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\0.DTO\0.DTO.asmdef" />
@@ -756,8 +761,7 @@
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
