@@ -1,4 +1,6 @@
-﻿using Newtonsoft.Json;
+﻿using DG.Tweening.Core;
+using DG.Tweening.Plugins.Options;
+using Newtonsoft.Json;
 using System;
 using System.Collections;
 using System.Collections.Generic;
